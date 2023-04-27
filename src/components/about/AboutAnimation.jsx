@@ -143,37 +143,37 @@ const About = () => {
           {/* End .row */}
 
           {/* separated */}
-          <div
+          {/* <div
             className="separated"
             style={{
               backgroundImage: `url(${
                 "img/border-dark.png"
               })`,
             }}
-          ></div>
+          ></div> */}
           {/* End separated */}
 
-          <div className="title">
+          {/* <div className="title">
             <h3>Awards.</h3>
-          </div>
+          </div> */}
 
           {/* <Awards /> */}
           {/* End Awards */}
 
           {/* separated */}
-          <div
+          {/* <div
             className="separated"
             style={{
               backgroundImage: `url(${
                  "img/border-dark.png"
               })`,
             }}
-          ></div>
+          ></div> */}
           {/* End separated */}
 
-          <div className="title">
+          {/* <div className="title">
             <h3>Testimonials.</h3>
-          </div>
+          </div> */}
 
           {/* <Testimonials /> */}
           {/* End Testimonaial */}

@@ -35,11 +35,11 @@ const Footer = () => {
           <p>
             © {new Date().getFullYear()} copyright{" "}
             <a
-              href="https://themeforest.net/user/ib-themes/portfolio"
+              href="https://github.com/dianariosramirez"
               target="_blank"
               rel="noreferrer"
             >
-              ib-themes
+              Diana Rios
             </a>{" "}
             all right reserved
           </p>

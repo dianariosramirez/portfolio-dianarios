@@ -81,7 +81,7 @@ const Slider = () => {
                 >
                   <a
                     className="px-btn px-btn-white"
-                    href="../../../public/documents/CV.pdf"
+                    href="/documents/CV.pdf"
                     download
                   >
                     {sliderContent.btnText}

@@ -30,7 +30,7 @@ const HomeOne = () => {
       <section id="work" className="section theme-light dark-bg">
         <div className="container">
           <div className="title">
-            <h3>My Portfolio.</h3>
+            <h3>Mi portafolio</h3>
           </div>
           <Portfolio />
         </div>
@@ -40,7 +40,7 @@ const HomeOne = () => {
       <section id="blog" className="section">
         <div className="container">
           <div className="title">
-            <h3>Latest Blog.</h3>
+            <h3>Blog</h3>
           </div>
           <Blog />
         </div>
