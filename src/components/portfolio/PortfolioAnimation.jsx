@@ -17,7 +17,7 @@ const tabListContent = [
   {
     porftoliItems: [
       {
-        img: "/img/portfolio/project-1.jpg",
+        img: "img/portfolio/project-1.jpg",
         width: 400,
         height: 550,
         title: "Tienda online",
@@ -28,7 +28,7 @@ const tabListContent = [
           "https://dianariosramirez.github.io/ceniza-shop/",
       },
       {
-        img: "/img/portfolio/project-2.jpg",
+        img: "img/portfolio/project-2.jpg",
         width: 400,
         height: 400,
         title: "App de Reconocimiento facial",
@@ -39,7 +39,7 @@ const tabListContent = [
           "https://dianariosramirez.github.io/smart-brain/",
       },
       {
-        img: "/img/portfolio/project-4.jpg",
+        img: "img/portfolio/project-4.jpg",
         width: 400,
         height: 400,
         title: "Lista de compras",
@@ -50,7 +50,7 @@ const tabListContent = [
           "https://dianariosramirez.github.io/shoppinglist/",
       },
       {
-        img: "/img/portfolio/project-3.jpg",
+        img: "img/portfolio/project-3.jpg",
         width: 400,
         height: 700,
         title: "React App",
@@ -61,7 +61,7 @@ const tabListContent = [
           "https://dianariosramirez.github.io/robotfriends/",
       },
       {
-        img: "/img/portfolio/project-5.jpg",
+        img: "img/portfolio/project-5.jpg",
         width: 400,
         height: 700,
         title: "Reloj",
@@ -72,7 +72,7 @@ const tabListContent = [
           "#",
       },
       {
-        img: "/img/portfolio/project-6.jpg",
+        img: "img/portfolio/project-6.jpg",
         width: 400,
         height: 500,
         title: "Juego en React",
@@ -87,7 +87,7 @@ const tabListContent = [
   {
     porftoliItems: [
       {
-        img: "/img/portfolio/project-4.jpg",
+        img: "img/portfolio/project-4.jpg",
         width: 400,
         height: 400,
         title: "Lista de compras",
@@ -102,7 +102,7 @@ const tabListContent = [
   {
     porftoliItems: [
       {
-        img: "/img/portfolio/project-1.jpg",
+        img: "img/portfolio/project-1.jpg",
         width: 400,
         height: 550,
         title: "Tienda online",
@@ -113,7 +113,7 @@ const tabListContent = [
           "https://dianariosramirez.github.io/ceniza-shop/",
       },
       {
-        img: "/img/portfolio/project-2.jpg",
+        img: "img/portfolio/project-2.jpg",
         width: 400,
         height: 400,
         title: "App de Reconocimiento facial",
@@ -124,7 +124,7 @@ const tabListContent = [
           "https://dianariosramirez.github.io/smart-brain/",
       },
       {
-        img: "/img/portfolio/project-3.jpg",
+        img: "img/portfolio/project-3.jpg",
         width: 400,
         height: 700,
         title: "React App",
@@ -135,7 +135,7 @@ const tabListContent = [
           "https://dianariosramirez.github.io/robotfriends/",
       },
       {
-        img: "/img/portfolio/project-5.jpg",
+        img: "img/portfolio/project-5.jpg",
         width: 400,
         height: 700,
         title: "Reloj",
@@ -146,7 +146,7 @@ const tabListContent = [
           "#",
       },
       {
-        img: "/img/portfolio/project-6.jpg",
+        img: "img/portfolio/project-6.jpg",
         width: 400,
         height: 500,
         title: "Juego en React",
@@ -161,7 +161,7 @@ const tabListContent = [
   {
     porftoliItems: [
       {
-        img: "/img/portfolio/project-1.jpg",
+        img: "img/portfolio/project-1.jpg",
         width: 400,
         height: 550,
         title: "Tienda online",

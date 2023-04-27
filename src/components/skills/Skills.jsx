@@ -13,13 +13,13 @@ const skillContent = [
     name: "CSS3",
     numberPercent: "80",
     startCount: "0",
-    endCount: "90",
+    endCount: "80",
   },
   {
     name: "JavasCript",
     numberPercent: "80",
     startCount: "0",
-    endCount: "90",
+    endCount: "80",
   },
   {
     name: "React JS",

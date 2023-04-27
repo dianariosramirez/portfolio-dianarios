@@ -5,18 +5,26 @@ const resumeContent = [
   {
     jobPosition: `Desarrollador front-end`,
     jobType: `Freelance | Remote`,
-    jobDuration: `Nov 2022 - actualidad`,
+    jobDuration: `ene 2023 - actualidad`,
     timeDuraton: `Tiempo completo`,
-    compnayName: "Proyectos personales",
-    jobDescription: `Desarrollo de aplicaciones web
-      utilizando herramientas tales como React, 
-      React Router y Material UI, entre otras, 
-      con la finalidad de practicar y adquirir 
-      experiencia en el campo del desarrollo web. 
-      Se han desarrollado dos aplicaciones principales,
-      a saber: un detector de rostros que utiliza la API
-      Clarifai y una tienda en línea dedicada a la venta 
-      de tizanas.`,
+    compnayName: "Ceniza Mx",
+    jobDescription: `Desarrollo de una tienda en línea 
+      para la venta de tizanas, utilizando React como 
+      framework y otras herramientas, como React Router y 
+      Material UI, para crear una interfaz de usuario dinámica,
+      eficiente y visualmente atractiva.`,
+    delayAnimation: "",
+  },
+  {
+    jobPosition: `Desarrollador front-end`,
+    jobType: `Proyecto | Remote`,
+    jobDuration: `nov 2022 - ene 2023`,
+    timeDuraton: `Tiempo completo`,
+    compnayName: "Proyecto",
+    jobDescription: `Desarrollo de una aplicaión web de detección 
+    de rostros en imágenes mediante el uso de React y la API Clarifai. 
+    Este proyecto se llevó a cabo con el fin de poner en práctica los 
+    conocimientos adquiridos en esta área.`,
     delayAnimation: "",
   }
 ];
