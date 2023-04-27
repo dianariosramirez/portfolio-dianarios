@@ -128,7 +128,7 @@ const News = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalOne}>
-            <img src="/img/cancel.svg" alt="close icon" />
+            <img src="img/cancel.svg" alt="close icon" />
           </button>
           {/* End close icon */}
 
@@ -240,7 +240,7 @@ const News = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalTwo}>
-            <img src="/img/cancel.svg" alt="close icon" />
+            <img src="img/cancel.svg" alt="close icon" />
           </button>
           {/* End close icon */}
 
@@ -362,7 +362,7 @@ const News = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalThree}>
-            <img src="/img/cancel.svg" alt="close icon" />
+            <img src="img/cancel.svg" alt="close icon" />
           </button>
           {/* End close icon */}
 
@@ -530,7 +530,7 @@ const News = () => {
       >
         <div>
           <button className="close-modal" onClick={toggleModalFour}>
-            <img src="/img/cancel.svg" alt="close icon" />
+            <img src="img/cancel.svg" alt="close icon" />
           </button>
           {/* End close icon */}
 
