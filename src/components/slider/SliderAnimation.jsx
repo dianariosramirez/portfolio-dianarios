@@ -1,20 +1,24 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import TextLoop from "react-text-loop";
 
-const conctInfo = {
-  phone: "+52 953 164 2942",
-  email: "dianariosram@gmail.com",
-};
 
-const sliderContent = {
-  name: "Diana Rios",
-  designation: "Front end Developer",
-  description: `Soy una desarrolladora web apasionada
-    por la programación, la ciencia, la tecnología y el aprendizaje constante.`,
-  btnText: "Descargar CV",
-};
+const Slider = ( { onClickEN, onClickES } ) => {
 
-const Slider = () => {
+  const [ t, i18n ] = useTranslation( "global" );
+
+  const conctInfo = {
+    phone: "+52 953 164 2942",
+    email: "dianariosram@gmail.com",
+  };
+  
+  const sliderContent = {
+    name: "Diana Rios",
+    designation: "Front end Developer",
+    description: t( "slider.description" ),
+    btnText: t( "slider.download" ),
+  };
+
   return (
     <>
       {/*  Home Banner */}
@@ -29,10 +33,10 @@ const Slider = () => {
           <div className="hb-lang">
             <ul className="nav">
               <li className="active">
-                <a href="#">ES</a>
+                <button onClick={ onClickEN }>EN</button>
               </li>
               <li>
-                <a href="#">EN</a>
+                <button onClick={ onClickES }>ES</button>
               </li>
             </ul>
           </div>
@@ -44,7 +48,7 @@ const Slider = () => {
             <div className="col-lg-7">
               <div className="type-box">
                 <h6 data-aos="fade-up" data-aos-duration="1200">
-                  Hola, soy
+                  { t( "slider.hello" ) }
                 </h6>
                 <h1
                   className="font-alt"
@@ -60,8 +64,8 @@ const Slider = () => {
                   data-aos-delay="200"
                 >
                   <TextLoop>
-                    <p className="loop-text lead">Front end Developer</p>
-                    <p className="loop-text lead"> Web Developer</p>
+                    <p className="loop-text lead">{ t( "slider.textLoop1" ) }</p>
+                    <p className="loop-text lead">{ t( "slider.textLoop2" ) }</p>
                   </TextLoop>
                 </div>
 

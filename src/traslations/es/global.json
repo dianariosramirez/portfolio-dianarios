@@ -1,0 +1,67 @@
+{
+    "homeOne": {
+        "titlePortfolio": "Mi portafolio",
+        "titleBlog": "Blog",
+        "contactForm": "¡Hola! ¿Quieres decir algo?"
+    },
+    "header": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "resume": "Currículum",
+        "work": "Portfolio",
+        "blog": "Blog",
+        "contact": "Contacto"
+    },
+    "slider":{
+        "description": "Soy una desarrolladora web apasionada por la programación, la ciencia, la tecnología y el aprendizaje constante",
+        "download": "Descargar CV",
+        "hello": "Hola, soy",
+        "textLoop1": "Desarolladora Front End",
+        "textLoop2": "Desarolladora Web"
+    },
+    "about":{
+        "career": "Desarrolladora web",
+        "aboutText1": "Soy una ingeniera en alimentos apasionada por la ciencia y la tecnología, además de una desarrolladora web con una sed insaciable de conocimiento. Me encanta aprender y siempre estoy buscando nuevos retos y oportunidades para crecer tanto personal como profesionalmente.",
+        "aboutText2": "Siempre he sido una persona curiosa, y mi amor por el aprendizaje me llevó a explorar el mundo de la programación y el desarrollo. Me di cuenta de que las habilidades que adquirí en mi carrera como ingeniera en alimentos se traducen perfectamente en el mundo de la programación: la capacidad de analizar y resolver problemas complejos, la atención al detalle y la pasión por crear soluciones efectivas.",
+        "aboutText3":"Hoy en día, me enorgullece ser una desarrolladora web, y estoy emocionada por todo lo que el futuro tiene reservado para mí. Si estás buscando a alguien que siempre esté buscando aprender, crecer y enfrentar nuevos desafíos, ¡soy la persona adecuada para ti!",
+        "name": "Nombre",
+        "birthday": "Cumpleaños",
+        "birthdayData": "13 de enero 1999",
+        "age": "Edad",
+        "ageData": "24 años",
+        "location": "Ubicación",
+        "phone": "Tel. Cel",
+        "freelanceData": "Disponible",
+        "whatIDo": "¿Qué hago?",
+        "services": {
+            "title1": "Desarrollo web",
+            "description1": "Desarrollo de aplicaciones web atractivas, siguiendo las especificaciones detalladas por el cliente. Especialmente en la parte del front-end, utilizando frameworks como React para asegurar que la aplicación cumpla con altos estándares de calidad y funcionalidad."
+        }
+    },
+    "resume": {
+        "experience": "Experiencia",
+        "jobs": {
+            "job1": {
+                "position": "Desarrollador front-end",
+                "type": "Freelance | Remote",
+                "jobDuration": "ene 2023 - actualidad",
+                "timeDuraton": "Tiempo completo",
+                "compnayName": "Ceniza Mx",
+                "jobDescription": "Desarrollo de una tienda en línea para la venta de tizanas, utilizando React como framework y otras herramientas, como React Router y Material UI, para crear una interfaz de usuario dinámica, eficiente y visualmente atractiva."
+            },
+            "job2": {
+                "position": "Desarrollador front-end",
+                "type": "Proyecto | Remote",
+                "jobDuration": "nov 2022 - ene 2023",
+                "timeDuraton": "Tiempo completo",
+                "compnayName": "Proyecto",
+                "jobDescription":"Desarrollo de una aplicaión web de detección de rostros en imágenes mediante el uso de React y la API Clarifai. Este proyecto se llevó a cabo con el fin de poner en práctica los conocimientos adquiridos en esta área."
+            }
+        },
+        "education": {
+            "education1": {
+                
+            }
+        }
+    }
+}

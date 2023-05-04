@@ -12,13 +12,27 @@ import ContactInfo from "../../components/contact/ContactInfo";
 import Map from "../../components/contact/Map";
 import Footer from "../../components/footer/FooterAnimation";
 
+import { useTranslation } from "react-i18next";
+
 const HomeOne = () => {
   document.body.classList.add("theme-light");
+
+  const [ t, i18n ] = useTranslation( "global" );
+
+  const onClickES = () => {
+    i18n.changeLanguage("es")
+
+  }
+
+  const onClickEN = () => {
+    i18n.changeLanguage("en")
+  }
+
   return (
     <div className="main-left">
       <Header />
 
-      <Slider />
+      <Slider onClickEN={ onClickEN } onClickES={ onClickES }/>
       {/* End Slider Section */}
 
       <About />
@@ -30,7 +44,7 @@ const HomeOne = () => {
       <section id="work" className="section theme-light dark-bg">
         <div className="container">
           <div className="title">
-            <h3>Mi portafolio</h3>
+            <h3>{ t( "homeOne.titlePortfolio" ) }</h3>
           </div>
           <Portfolio />
         </div>
@@ -40,7 +54,7 @@ const HomeOne = () => {
       <section id="blog" className="section">
         <div className="container">
           <div className="title">
-            <h3>Blog</h3>
+            <h3>{ t( "homeOne.titleBlog" ) }</h3>
           </div>
           <Blog />
         </div>
@@ -66,7 +80,7 @@ const HomeOne = () => {
               data-aos-delay="200"
             >
               <div className="contact-form">
-                <h4>¡Hola! ¿Quieres decir algo?</h4>
+                <h4>{ t( "homeOne.contactForm" ) }</h4>
                 <Contact />
               </div>
             </div>

@@ -5,8 +5,11 @@ import Social from "../Social";
 import Testimonials from "../testimonial/TestimonialAnimation";
 import Services from "../service/ServiceAnimation";
 import Awards from "../award/AwardsAnimation";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const[ t, i18n ] = useTranslation( "global" );
+
   return (
     <>
       <section id="about" className="section theme-light dark-bg">
@@ -29,7 +32,7 @@ const About = () => {
                 </div>
                 {/* End img */}
                 <div className="info">
-                  <p>Web developer</p>
+                  <p>{ t( "about.career" ) }</p>
                   <h3>Diana Rios</h3>
                 </div>
                 {/* End info */}
@@ -46,31 +49,18 @@ const About = () => {
             >
               <div className="about-info">
                 <div className="title">
-                  <h3>Sobre mí</h3>
+                  <h3>{ t( "header.about" ) }</h3>
                 </div>
 
                 <div className="about-text">
                   <p>
-                  Soy una ingeniera en alimentos apasionada por la ciencia y la 
-                  tecnología, además de una desarrolladora web con una 
-                  sed insaciable de conocimiento. Me encanta aprender y
-                  siempre estoy buscando nuevos retos y oportunidades 
-                  para crecer tanto personal como profesionalmente.
+                    { t( "about.aboutText1" ) }
                   </p>
                   <p>
-                  Siempre he sido una persona curiosa, y mi amor por el
-                  aprendizaje me llevó a explorar el mundo de la programación y el desarrollo. Me di cuenta de que las habilidades que adquirí en 
-                  mi carrera como ingeniera en alimentos se traducen perfectamente
-                  en el mundo de la programación: la capacidad de analizar y 
-                  resolver problemas complejos, la atención al detalle y la 
-                  pasión por crear soluciones efectivas.
+                    { t( "about.aboutText2" ) }
                   </p>
                   <p>
-                  Hoy en día, me enorgullece ser una 
-                  desarrolladora web, y estoy emocionada por todo lo que 
-                  el futuro tiene reservado para mí. Si estás buscando a 
-                  alguien que siempre esté buscando aprender, crecer y 
-                  enfrentar nuevos desafíos, ¡soy la persona adecuada para ti!
+                    { t( "about.aboutText3" ) }
                   </p>
                 </div>
                 <div className="info-list">
@@ -78,19 +68,19 @@ const About = () => {
                     <div className="col-sm-6">
                       <ul>
                         <li>
-                          <label>Nombre: </label>
+                          <label>{ t( "about.name" ) }</label>
                           <span>Diana Rios</span>
                         </li>
                         <li>
-                          <label>Cumpleaños: </label>
-                          <span>13 enero 1999</span>
+                          <label>{ t( "about.birthday" ) }</label>
+                          <span>{ t( "about.birthdayData" ) }</span>
                         </li>
                         <li>
-                          <label>Edad: </label>
-                          <span>24 años</span>
+                          <label>{ t( "about.age" ) }</label>
+                          <span>{ t( "about.ageData" ) }</span>
                         </li>
                         <li>
-                          <label>Ubicación: </label>
+                          <label>{ t( "about.location" ) }</label>
                           <span>Oaxaca, México</span>
                         </li>
                       </ul>
@@ -98,7 +88,7 @@ const About = () => {
                     <div className="col-sm-6">
                       <ul>
                         <li>
-                          <label>Tel. Cel.: </label>
+                          <label>{ t( "about.phone" ) }</label>
                           <span>(+52) 953 164 2942</span>
                         </li>
                         <li>
@@ -111,7 +101,7 @@ const About = () => {
                         </li>
                         <li>
                           <label>Freelance: </label>
-                          <span>Disponible</span>
+                          <span>{ t( "about.freelanceData" ) }</span>
                         </li>
                       </ul>
                     </div>
@@ -135,7 +125,7 @@ const About = () => {
 
           {/* End separated */}
           <div className="title">
-            <h3>¿Qué hago?</h3>
+            <h3>{ t( "about.whatIDo" ) }</h3>
           </div>
 
           <Services />

@@ -9,10 +9,13 @@ import {
   FiPhoneOutgoing,
 } from "react-icons/fi";
 import { FaHome, FaBlog } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+
+  const [ t, i18n ] = useTranslation( "global" );
 
   return (
     <>
@@ -59,7 +62,7 @@ const Header = () => {
                   type="dark"
                   effect="float"
                 >
-                  <span>Home</span>
+                  <span>{ t( "header.home" ) }</span>
                 </Tooltip>
               </a>
             </li>
@@ -78,7 +81,7 @@ const Header = () => {
                   type="dark"
                   effect="float"
                 >
-                  <span>About</span>
+                  <span>{ t( "header.about" ) }</span>
                 </Tooltip>
               </a>
             </li>
@@ -97,7 +100,7 @@ const Header = () => {
                   type="dark"
                   effect="float"
                 >
-                  <span>Resume</span>
+                  <span>{ t( "header.resume" ) }</span>
                 </Tooltip>
               </a>
             </li>
@@ -116,7 +119,7 @@ const Header = () => {
                   type="dark"
                   effect="float"
                 >
-                  <span>Work</span>
+                  <span>{ t( "header.work" ) }</span>
                 </Tooltip>
               </a>
             </li>
@@ -135,7 +138,7 @@ const Header = () => {
                   type="dark"
                   effect="float"
                 >
-                  <span>Blog</span>
+                  <span>{ t( "header.blog" ) }</span>
                 </Tooltip>
               </a>
             </li>
@@ -154,7 +157,7 @@ const Header = () => {
                   type="dark"
                   effect="float"
                 >
-                  <span>Contact</span>
+                  <span>{ t( "header.contact" ) }</span>
                 </Tooltip>
               </a>
             </li>

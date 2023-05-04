@@ -1,32 +1,19 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
-const ServiceContent = [
-  // {
-  //   icon: "icon-mobile",
-  //   title: "Web Design",
-  //   descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-  //   eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-  //   delayAnimation: "",
-  // },
-  {
-    icon: "icon-desktop",
-    title: "Desarrollo web",
-    descriptions: `Desarrollo de aplicaciones web 
-      atractivas, siguiendo las especificaciones detalladas
-      por el cliente. Especialmente en la parte del front-end,
-      utilizando frameworks como React para asegurar que la aplicación 
-      cumpla con altos estándares de calidad y funcionalidad.`,
-    delayAnimation: "200",
-  },
-  // {
-  //   icon: "icon-target",
-  //   title: "Seo Marketing",
-  //   descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-  //   eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-  //   delayAnimation: "400",
-  // },
-];
-export default function Service() {
+const Service = () => {
+
+  const [ t, i18n ] = useTranslation( "global" );
+
+  const ServiceContent = [
+    {
+      icon: "icon-desktop",
+      title: t( "about.services.title1" ),
+      descriptions: t( "about.services.description1" ),
+      delayAnimation: "200",
+    }
+  ];
+
   return (
     <>
       <div className="row">
@@ -54,3 +41,5 @@ export default function Service() {
     </>
   );
 }
+
+export default Service;

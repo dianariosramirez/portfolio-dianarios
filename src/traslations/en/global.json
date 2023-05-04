@@ -1,0 +1,41 @@
+{
+    "homeOne": {
+        "titlePortfolio": "My Portfolio",
+        "titleBlog": "Latest Blog",
+        "contactForm": "Say Something"
+    },
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "resume": "Resume",
+        "work": "Work",
+        "blog": "Blog",
+        "contact": "Contact"
+    },
+    "slider":{
+        "description": "I'm a web developer passionate about programming, science, technology and constant learning",
+        "download": "Download CV",
+        "hello": "Hello!, My name is",
+        "textLoop1": "Front End Developer",
+        "textLoop2": "Web Developer"
+    },
+    "about":{
+        "career": "Web Developer",
+        "aboutText1": "I am a food engineer with a passion for science and technology, as well as a web developer with an insatiable thirst for knowledge. I love to learn and I am always looking for new challenges and opportunities to grow both personally and professionally.",
+        "aboutText2": "I have always been a curious person, and my love of learning led me to explore the world of programming and development. I realized that the skills I gained in my career as a food engineer translate perfectly into the world of programming: the ability to analyze and solve complex problems, attention to detail, and a passion for creating effective solutions.",
+        "aboutText3": "Today, I am proud to be a web developer, and excited for all that the future holds for me. If you are looking for someone who is always looking to learn, grow and take on new challenges, I am the right person for you!",
+        "name": "Name",
+        "birthday": "Birthday",
+        "birthdayData": "January 13th 1999",
+        "age": "Age",
+        "ageData": "24 years",
+        "location": "Location",
+        "phone": "Phone",
+        "freelanceData": "Available",
+        "whatIDo": "What I do?",
+        "services": {
+            "title1": "Web development",
+            "description1": "Development of attractive web applications, following the specifications detailed by the client. Especially in the front-end part, using frameworks like React to ensure that the application meets high standards of quality and functionality."
+        }
+    }
+}
