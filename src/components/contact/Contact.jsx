@@ -1,7 +1,11 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+
+  const [ t, i18n ] = useTranslation( "global" );
+
   const {
     register,
     handleSubmit,
@@ -22,11 +26,11 @@ const Contact = () => {
               <input
                 type="text"
                 className="form-control theme-light"
-                placeholder="Nombre"
+                placeholder= { t( "form.name.placeholder" ) }
                 {...register("name", { required: true })}
               />
               {errors.name && errors.name.type === "required" && (
-                <span className="invalid-feedback">Nombre requerido</span>
+                <span className="invalid-feedback">{ t( "form.name.required" ) }</span>
               )}
             </div>
           </div>
@@ -37,14 +41,14 @@ const Contact = () => {
               <input
                 type="email"
                 className="form-control theme-light"
-                placeholder="Correo"
+                placeholder={ t( "form.email.placeholder" ) }
                 {...register(
                   "email",
                   {
-                    required: "Correo requerido",
+                    required: t( "form.email.required" ),
                     pattern: {
                       value: /\S+@\S+\.\S+/,
-                      message: "Formato de correo no válido",
+                      message: t( "form.email.invalidMesssage" ),
                     },
                   },
                   { required: true }
@@ -62,11 +66,11 @@ const Contact = () => {
               <input
                 type="text"
                 className="form-control theme-light"
-                placeholder="Asunto"
+                placeholder={ t( "form.affair.placeholder" ) }
                 {...register("subject", { required: true })}
               />
               {errors.subject && (
-                <span className="invalid-feedback">Asunto requerido</span>
+                <span className="invalid-feedback">{ t( "form.affair.required" ) }</span>
               )}
             </div>
           </div>
@@ -77,11 +81,11 @@ const Contact = () => {
               <textarea
                 rows="4"
                 className="form-control theme-light"
-                placeholder="¡Escribe tu comentario! Me dará gusto leerte"
+                placeholder={ t( "form.comment.placeholder" ) }
                 {...register("comment", { required: true })}
               ></textarea>
               {errors.comment && (
-                <span className="invalid-feedback">Requerido</span>
+                <span className="invalid-feedback">{ t( "form.comment.required" ) }</span>
               )}
             </div>
           </div>
@@ -89,7 +93,7 @@ const Contact = () => {
 
           <div className="col-12">
             <div className="btn-bar">
-              <button className="px-btn px-btn-white">Enviar</button>
+              <button className="px-btn px-btn-white">{ t( "form.submit" ) }</button>
             </div>
           </div>
           {/* End .col-12 */}

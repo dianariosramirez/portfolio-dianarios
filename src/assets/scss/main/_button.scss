@@ -50,3 +50,17 @@
 .btn-wrapper {
   margin-top: 20px;
 }
+
+// btn language
+
+.home-banner .activedButton {
+ background-color: #24648b;
+ color: white;
+ border: none;
+}
+
+.home-banner .disabledButton {
+  background-color: none;
+  color: gray;
+  border: none;
+ }

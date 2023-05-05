@@ -37,5 +37,131 @@
             "title1": "Web development",
             "description1": "Development of attractive web applications, following the specifications detailed by the client. Especially in the front-end part, using frameworks like React to ensure that the application meets high standards of quality and functionality."
         }
+    },
+    "resume": {
+        "experience": "Experience",
+        "jobs": {
+            "job1": {
+                "position": "Front-end developer",
+                "type": "Freelance | Remote",
+                "jobDuration": "Jan 2023 - Present",
+                "timeDuration": "Full-time",
+                "compnayName": "Ceniza Mx",
+                "description": "Development of an online store for the sale of herbal teas, using React as the framework and other tools such as React Router and Material UI to create a dynamic, efficient and visually appealing user interface."
+            },
+            "job2": {
+                "position": "Front-end developer",
+                "type": "Project | Remote",
+                "jobDuration": "nov 2022 - ene 2023",
+                "timeDuration": "Part-time",
+                "compnayName": "Project",
+                "description":"Development of a web application for face detection in images using React and the Clarifai API. This project was carried out in order to put into practice the knowledge acquired in this area."
+            }
+        },
+        "education": {
+            "educationTitle": "Education & Skills",
+            "education1": {
+                "degreeTitle": "Web Development",
+                "instituteName": "Zero To Mastery Academy"
+            },
+            "education2": {
+                "degreeTitle": "Food Engineering",
+                "instituteName": "Universidad Tecnológica de la Mixteca (Oaxaca, Mexico)"
+            },
+            "education3": {
+                "degreeTitle": "General High School, Specialization: Computer Science",
+                "instituteName": "CECYTEO (Oaxaca, Mexico)"
+            }
+        }  
+    },
+    "blog": {
+        "comment": "Comment",
+        "blog1": {
+            "title": "My experience learning to program from scratch",
+            "p1": "When I decided to learn how to program, I had no idea where to start. As a food engineer, I was used to working with formulas and molecular structures, but I had never written a single line of code in my life. However, I knew I wanted to learn and was willing to do everything possible to achieve it.",
+            "subtitle1": "How to start?",
+            "p2": "The first thing I did was to search for online resources. I found many free tutorials and courses, and started reading and watching videos to understand the basics of programming. I learned about variables, loops, conditionals, functions, and much more. At first, everything seemed overwhelming, but gradually I began to understand how the different parts of a program connected together.",
+            "p3": "After several days of self-learning, I realized that I needed more structure in my learning process. So, I enrolled in an online course on web programming and started following it step by step. The course helped me to better understand how programming concepts were applied to building websites.",
+            "subtitle2": "Throughout time",
+            "p4": "With time, I started building small projects on my own. I began with simple projects like a shopping list or a basic calculator. But as my confidence grew, I started working on more complex projects. One project that was especially rewarding for me was creating a web application for face detection in images using tools like React that allowed me to build web applications more easily.",
+            "p5": "In summary, learning to program has been an exciting and challenging journey for me. At first, it seemed like a difficult path to take, but gradually I began to understand the concepts and apply what I learned. As I gained experience, I felt more confident and capable of building new things. If you're also starting out in the world of programming, my advice is to take your time to understand the basics, find a learning structure that suits your style, and practice as much as you can.",
+            "p6": "You will see that, with effort and dedication, you can go very far!" 
+        },
+        "blog2": {
+            "title": " Using Zustand with React JS!🚀",
+            "p1": "Managing state is something necessary in modern applications with React JS. That's why today I'll give you an introduction to Zustand, a popular alternative for managing your state in your applications.",
+            "subtitle1": "🚀 What is Zustand?",
+            "p2": "Zustand is a small, fast, and scalable state management solution. Its state management is centralized and based on actions. Zustand was developed by the creators of Jotai and React-spring's. You can use Zustand in React as well as other technologies like Angular, Vue JS, or even vanilla JavaScript. Zustand is an alternative to other state managers like Redux, Jotai, Recoil, etc.",
+            "subtitle2": "⭕ Advantages of using Zustand.",
+            "li1": "Less repetitive code (compared to Redux).",
+            "li2": "Easy-to-understand documentation.",
+            "li3": "Flexibility",
+            "li4": "You can use Zustand in a simple way, with TypeScript, you can integrate immer for immutability, or even write code similar to the Redux pattern (reducers and dispatch).",
+            "li5": "It does not wrap the application in a provider as commonly done in Redux.",
+            "li6": "Renders components only when changes occur.",
+            "p3": "Zustand provides easy access and updating of state, making it a user-friendly alternative to other state managers. In my personal opinion, Zustand has been quite pleasing to use due to its aforementioned features, and it is one of my favorite libraries for managing state, along with Redux Toolkit.",
+            "p4": "Undoubtedly, you should give it a try to use it in some project 😉."
+        },
+        "blog3": {
+            "title": "Scrum: what it is and how this framework works",
+            "p1": "When starting a project, every company must ensure that the team involved knows their tasks and delivery deadlines. Scrum is a framework that helps achieve this, and also allows for the delivery of value to the customer in short iterations of time." ,
+            "p2": "Scrum is a framework used by teams that handle high uncertainty projects. It is a framework by which people can tackle complex adaptive problems while delivering the highest possible value products productively and creatively. Scrum is lightweight and easy to understand but also difficult to fully master. This framework favors time to market and the rapid delivery of MVPs (minimum viable products).",
+            "subtitle1": "What is the origin of Scrum?",
+            "p3": "In 2001, in Salt Lake City, a group of developers led by software engineer Kent Beck gathered to share their frustrations about software delivery methodologies and frameworks that existed until then (PMI, CMMI, or SPICE). From this meeting came the Agile Manifesto, which summarizes their intentions in the following 4 values:",
+            "li1": "Valuing individuals and interactions over processes and tools." ,
+            "li2": "Valuing working software over comprehensive documentation.",
+            "li3": "Valuing customer collaboration over contract negotiation.",
+            "li4": "Valuing responding to change over following a plan.",
+            "subtitle2": "The 5 Scrum values" ,
+            "p4": "The Agile Manifesto and Scrum go hand in hand to offer a clear guide to development teams when facing a new project. In this sense, there are a series of values associated with the Scrum framework that are worth considering:",
+            "li5": "Courage. Having the courage to do the right thing and solve complex problems.",
+            "li6": "Focus. The organization of work into sprints provides certainty and allows efforts to be focused on achievable goals.",
+            "li7": "Commitment. For the Scrum framework to work, it needs the commitment of all members involved.",
+            "li8": "Honesty. The Scrum team must be transparent about the work and obstacles they encounter along the way.",
+            "li9": "Respect. Treating each other appropriately and valuing the ideas and efforts of each team member is essential.",
+            "subtitle3": "What is the Scrum framework based on?",
+            "p5": "As it is framed within agile methodologies, Scrum is based on aspects such as:",
+            "li10": "Flexibility in adopting changes and new requirements during a complex project, as it is framed within agile methodologies.",
+            "li11": "The human factor.",
+            "li12": "Collaboration and interaction with the client.",
+            "li13": "Iterative development as a way to ensure good results."
+        },
+        "blog4": {
+            "title": "What is BACKEND and FRONTEND?",
+            "p1": "Surely you have heard the terms Frontend and Backend because they are widely used among developers, however, do you really know what they mean? In this article I will explain what each one consists of and some misconceptions that people have.",
+            "p2": "In current web development there are 3 key concepts to take into account: Frontend, API and Backend. We say that they are current concepts because previously everything was done with PHP, incredible, right? But it all started like this, the structure of the websites and the communication with the server was done with PHP, it was not necessary to use JavaScript which today is almost unthinkable for the development of a Web.",
+            "subtitle1": "Modern Web Development" ,
+            "p3": "Modern web development arises around 2008 when the HTML5 boom begins, it is at this moment where we start talking about Frontend and Backend, because web technology grows enormously thanks to the APIs that came with HTML5, these APIs make it possible a communication between Backend and Frontend, in this way any Frontend can communicate with any Backend.",
+            "subtitle2": "Frontend",
+            "p4": "The frontend, as we already said, is the client and it is the one that is in charge of all the logic of this when you want to make a request, we can say that this concept arose in 2008 due to the tools that emerged from that moment: HTML5, CSS3 (2008), JSON (2013 - 2015), AngularJS (2010), Ember, Backbone, Rest (2000) and Nodejs, these technologies made the Frontend possible.",
+            "p5": "The Frontend has been evolving with new technologies such as: ES6 (2015), React (2013), Vue (2014), Angular (2016), GraphQL (2015), which at least you must have already heard; in the Today's landscape comes into play WebAssembly which is a new type of code that runs in modern web browsers and provides new features and huge performance gains.",
+            "subtitle3": "Backend",
+            "p6": "The time has come for the Backend and, as we have already said, it is who is on the server side, it is in charge of the business logic, that is, all the functions that the client requires.",
+            "p7": "A Backend developer must be able to create an API so that the Frontend can consume it and thus be able to make requests, in the development of this API it is necessary to connect to a database and define what the frontend is allowed to show (a backend developer You don't necessarily have to know databases, you can do it through an ORM)."
+        }
+    },
+    "contactInfo": {
+        "contactMe": "Contact me",
+        "location": "Huajuapan de León, Oaxaca, Mex. ZIP: 69004"
+    },
+    "form": {
+        "name": {
+            "placeholder": "Name",
+            "required": "Name required"
+        },
+        "email": {
+            "placeholder": "Email" ,
+            "required": "Mail required",
+            "invalidMessage": "Invalid email format"
+        },
+        "affair": {
+            "placeholder": "Affair",
+            "required": "Subject Required"
+        },
+        "comment": {
+            "placeholder": "Write your comment! I'll be happy to read you",
+            "required": "Required"
+        },
+        "submit": "Submit"
     }
 }

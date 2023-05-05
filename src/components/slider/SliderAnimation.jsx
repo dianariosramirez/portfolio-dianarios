@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import TextLoop from "react-text-loop";
 
 
-const Slider = ( { onClickEN, onClickES } ) => {
+const Slider = ( { onClickEN, onClickES, styleButtonEN, styleButtonES } ) => {
 
   const [ t, i18n ] = useTranslation( "global" );
 
@@ -32,11 +32,11 @@ const Slider = ( { onClickEN, onClickES } ) => {
           </div>
           <div className="hb-lang">
             <ul className="nav">
-              <li className="active">
-                <button onClick={ onClickEN }>EN</button>
+              <li>
+                <button className={ styleButtonEN } onClick={ onClickEN }>EN</button>
               </li>
               <li>
-                <button onClick={ onClickES }>ES</button>
+                <button className={ styleButtonES } onClick={ onClickES }>ES</button>
               </li>
             </ul>
           </div>

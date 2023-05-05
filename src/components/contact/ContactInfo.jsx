@@ -1,16 +1,20 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const ContactInfo = () => {
+
+  const [ t, i18n ] = useTranslation( "global" );
+
   return (
     <>
       <div className="contact-info">
-        <h4>Contáctame</h4>
+        <h4>{ t( "contactInfo.contactMe" ) }</h4>
 
         <ul>
           <li className="media">
             <i className="icon icon-map"></i>
             <span className="media-body">
-              Huajuapan de León, Oaxaca, Mex. CP: 69004
+              { t( "contactInfo.location" ) }
             </span>
           </li>
           {/* End li */}

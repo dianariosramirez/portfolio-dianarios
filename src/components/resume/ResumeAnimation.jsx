@@ -1,59 +1,57 @@
 import React from "react";
 import Skills from "../skills/Skills";
+import { useTranslation } from "react-i18next";
 
-const resumeContent = [
-  {
-    jobPosition: `Desarrollador front-end`,
-    jobType: `Freelance | Remote`,
-    jobDuration: `ene 2023 - actualidad`,
-    timeDuraton: `Tiempo completo`,
-    compnayName: "Ceniza Mx",
-    jobDescription: `Desarrollo de una tienda en línea 
-      para la venta de tizanas, utilizando React como 
-      framework y otras herramientas, como React Router y 
-      Material UI, para crear una interfaz de usuario dinámica,
-      eficiente y visualmente atractiva.`,
-    delayAnimation: "",
-  },
-  {
-    jobPosition: `Desarrollador front-end`,
-    jobType: `Proyecto | Remote`,
-    jobDuration: `nov 2022 - ene 2023`,
-    timeDuraton: `Tiempo completo`,
-    compnayName: "Proyecto",
-    jobDescription: `Desarrollo de una aplicaión web de detección 
-    de rostros en imágenes mediante el uso de React y la API Clarifai. 
-    Este proyecto se llevó a cabo con el fin de poner en práctica los 
-    conocimientos adquiridos en esta área.`,
-    delayAnimation: "",
-  }
-];
-
-const educatonContent = [
-  {
-    passingYear: "2022-2023",
-    degreeTitle: "Desarrollo web",
-    instituteName: "Zero To Mastery Academy",
-  },
-  {
-    passingYear: "20117-2022",
-    degreeTitle: "Ingeniería en alimentos",
-    instituteName: "Universidad Tecnológica de la Mixteca",
-  },
-  {
-    passingYear: "2014-2017",
-    degreeTitle: "Bachillerato general, Especialidad: Informática",
-    instituteName: "Centro de Estudios Científicos y Tecnológicos del Estado de Oaxaca",
-  },
-];
 
 const Resume = () => {
+
+  const [ t, i18n ] = useTranslation( "global" ); 
+
+  const resumeContent = [
+    {
+      jobPosition: t( "resume.jobs.job1.position" ),
+      jobType: t( "resume.jobs.job1.type" ),
+      jobDuration: t( "resume.jobs.job1.jobDuration" ),
+      timeDuraton: t( "resume.jobs.job1.timeDuration" ),
+      compnayName: t( "resume.jobs.job1.compnayName" ),
+      jobDescription: t( "resume.jobs.job1.description" ),
+      delayAnimation: "",
+    },
+    {
+      jobPosition: t( "resume.jobs.job2.position" ),
+      jobType: t( "resume.jobs.job2.type" ),
+      jobDuration: t( "resume.jobs.job2.jobDuration" ),
+      timeDuraton: t( "resume.jobs.job2.timeDuration" ),
+      compnayName: t( "resume.jobs.job2.compnayName" ),
+      jobDescription: t( "resume.jobs.job2.description" ),
+      delayAnimation: "",
+    },
+  ];
+
+  const educatonContent = [
+    {
+      passingYear: "2022-2023",
+      degreeTitle: t( "resume.education.education1.degreeTitle" ),
+      instituteName: t( "resume.education.education1.instituteName" )
+    },
+    {
+      passingYear: "20117-2022",
+      degreeTitle: t( "resume.education.education2.degreeTitle" ),
+      instituteName: t( "resume.education.education2.instituteName" )
+    },
+    {
+      passingYear: "2014-2017",
+      degreeTitle: t( "resume.education.education3.degreeTitle" ),
+      instituteName: t( "resume.education.education3.instituteName" )
+    },
+  ];
+
   return (
     <>
       <section id="resume" className="section">
         <div className="container">
           <div className="title">
-            <h3>Experiencia</h3>
+            <h3>{ t( "resume.experience" ) }</h3>
           </div>
           {/* End title */}
           <div className="resume-box">
@@ -97,7 +95,7 @@ const Resume = () => {
           {/* End separated */}
 
           <div className="title">
-            <h3>Education & Skills</h3>{" "}
+            <h3>{ t( "resume.education.educationTitle" ) }</h3>{" "}
           </div>
 
           <div className="row align-items-center">

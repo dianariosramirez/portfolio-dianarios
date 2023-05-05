@@ -1,4 +1,5 @@
-import React from "react";
+import React, {useState} from "react";
+import { useTranslation } from "react-i18next";
 
 // Components
 import Header from "../../components/header/Header";
@@ -12,27 +13,35 @@ import ContactInfo from "../../components/contact/ContactInfo";
 import Map from "../../components/contact/Map";
 import Footer from "../../components/footer/FooterAnimation";
 
-import { useTranslation } from "react-i18next";
-
 const HomeOne = () => {
   document.body.classList.add("theme-light");
+  const [ styleButtonES, setStyleButtonES ] = useState("activedButton");
+  const [ styleButtonEN, setStyleButtonEN ] = useState("disabledButton");
 
   const [ t, i18n ] = useTranslation( "global" );
 
   const onClickES = () => {
-    i18n.changeLanguage("es")
-
+    i18n.changeLanguage("es");
+    setStyleButtonES("activedButton");
+    setStyleButtonEN("disabledButton");
   }
 
   const onClickEN = () => {
-    i18n.changeLanguage("en")
+    i18n.changeLanguage("en");
+    setStyleButtonES("disabledButton");
+    setStyleButtonEN("activedButton");
   }
 
   return (
     <div className="main-left">
       <Header />
 
-      <Slider onClickEN={ onClickEN } onClickES={ onClickES }/>
+      <Slider 
+        styleButtonEN={ styleButtonEN }
+        styleButtonES={ styleButtonES }
+        onClickEN={ onClickEN } 
+        onClickES={ onClickES }
+      />
       {/* End Slider Section */}
 
       <About />
