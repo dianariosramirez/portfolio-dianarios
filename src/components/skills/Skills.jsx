@@ -41,6 +41,12 @@ const skillContent = [
   },
   {
     name: "Node JS",
+    numberPercent: "60",
+    startCount: "0",
+    endCount: "60",
+  },
+  {
+    name: "SQL",
     numberPercent: "50",
     startCount: "0",
     endCount: "50",

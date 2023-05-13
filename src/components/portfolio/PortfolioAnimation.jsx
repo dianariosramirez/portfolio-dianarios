@@ -12,7 +12,7 @@ const breakpointColumnsObj = {
   500: 1,
 };
 
-const tabList = ["Todo", "HTML/JS", "React", "Material UI", "Bootstrap", "Angular"];
+const tabList = ["Todo", "React", "Material UI", "Bootstrap", "Angular"];
 const tabListContent = [
   {
     porftoliItems: [
@@ -39,17 +39,6 @@ const tabListContent = [
           "https://dianariosramirez.github.io/smart-brain/",
       },
       {
-        img: "img/portfolio/project-4.jpg",
-        width: 400,
-        height: 400,
-        title: "Shopping List",
-        subTitle: "",
-        alterText: "Shopping List",
-        delayAnimation: "0",
-        portfolioLink:
-          "https://dianariosramirez.github.io/shoppinglist/",
-      },
-      {
         img: "img/portfolio/project-3.jpg",
         width: 400,
         height: 700,
@@ -59,32 +48,6 @@ const tabListContent = [
         delayAnimation: "200",
         portfolioLink:
           "https://dianariosramirez.github.io/robotfriends/",
-      },
-      {
-        img: "img/portfolio/project-6.jpg",
-        width: 400,
-        height: 500,
-        title: "React MiniGame",
-        subTitle: "TIC TAC TOE",
-        alterText: "React MiniGame",
-        delayAnimation: "200",
-        portfolioLink:
-          "#",
-      }
-    ],
-  },
-  {
-    porftoliItems: [
-      {
-        img: "img/portfolio/project-4.jpg",
-        width: 400,
-        height: 400,
-        title: "Shopping List",
-        subTitle: "Shopping List",
-        alterText: "Shopping List",
-        delayAnimation: "0",
-        portfolioLink:
-          "https://dianariosramirez.github.io/shoppinglist/",
       }
     ],
   },
@@ -122,17 +85,6 @@ const tabListContent = [
         delayAnimation: "200",
         portfolioLink:
           "https://dianariosramirez.github.io/robotfriends/",
-      },
-      {
-        img: "img/portfolio/project-6.jpg",
-        width: 400,
-        height: 500,
-        title: "React MiniGame",
-        subTitle: "TIC TAC TOE",
-        alterText: "React MiniGame",
-        delayAnimation: "200",
-        portfolioLink:
-          "#",
       }
     ],
   },

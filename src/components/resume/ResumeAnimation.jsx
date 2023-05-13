@@ -14,7 +14,10 @@ const Resume = () => {
       jobDuration: t( "resume.jobs.job1.jobDuration" ),
       timeDuraton: t( "resume.jobs.job1.timeDuration" ),
       compnayName: t( "resume.jobs.job1.compnayName" ),
-      jobDescription: t( "resume.jobs.job1.description" ),
+      jobDescription1: t( "resume.jobs.job1.description1" ),
+      jobDescription2: t( "resume.jobs.job1.description2" ),
+      jobDescription3: t( "resume.jobs.job1.description3" ),
+      jobDescription4: t( "resume.jobs.job1.description4" ),
       delayAnimation: "",
     },
     {
@@ -23,7 +26,10 @@ const Resume = () => {
       jobDuration: t( "resume.jobs.job2.jobDuration" ),
       timeDuraton: t( "resume.jobs.job2.timeDuration" ),
       compnayName: t( "resume.jobs.job2.compnayName" ),
-      jobDescription: t( "resume.jobs.job2.description" ),
+      jobDescription1: t( "resume.jobs.job1.description1" ),
+      jobDescription2: t( "resume.jobs.job1.description2" ),
+      jobDescription3: t( "resume.jobs.job1.description3" ),
+      jobDescription4: t( "resume.jobs.job1.description4" ),
       delayAnimation: "",
     },
   ];
@@ -35,7 +41,7 @@ const Resume = () => {
       instituteName: t( "resume.education.education1.instituteName" )
     },
     {
-      passingYear: "20117-2022",
+      passingYear: "2017-2022",
       degreeTitle: t( "resume.education.education2.degreeTitle" ),
       instituteName: t( "resume.education.education2.instituteName" )
     },
@@ -75,7 +81,13 @@ const Resume = () => {
                   <div className="col-md-8 col-xl-9">
                     <div className="rb-right">
                       <h6>{val.compnayName}</h6>
-                      <p>{val.jobDescription}</p>
+                      <p>{val.jobDescription1}</p>
+                      <ul>
+                        <li>{val.jobDescription2}</li>
+                        <li>{val.jobDescription3}</li>
+                        <li>{val.jobDescription4}</li>
+                      </ul>
+                      
                     </div>
                   </div>
                 </div>

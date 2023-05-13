@@ -47,7 +47,10 @@
                 "jobDuration": "Jan 2023 - Present",
                 "timeDuration": "Full-time",
                 "compnayName": "Ceniza Mx",
-                "description": "Development of an online store for the sale of herbal teas, using React as the framework and other tools such as React Router and Material UI to create a dynamic, efficient and visually appealing user interface."
+                "description1": "Development of Ceniza MX, online store for the sale of tizanas and products.",
+                "description2": "Project planning and design.",
+                "description3": "Application of development tools such as React, React Router V6, Material UI and Zustand.",
+                "description4": "Implementation of creative solutions to solve technical problems."
             },
             "job2": {
                 "position": "Front-end developer",
@@ -55,7 +58,10 @@
                 "jobDuration": "nov 2022 - ene 2023",
                 "timeDuration": "Part-time",
                 "compnayName": "Project",
-                "description":"Development of a web application for face detection in images using React and the Clarifai API. This project was carried out in order to put into practice the knowledge acquired in this area."
+                "description1": "Development of a web application for facial recognition in images.",
+                "description2": "Application of various Front-end tools including HTML, CSS, JavaScript and React.",
+                "description3": "Skill training in web programming, user interface design, user experience, among others.",
+                "description4": "Integration of applications with API's (Clarifai API)."
             }
         },
         "education": {
