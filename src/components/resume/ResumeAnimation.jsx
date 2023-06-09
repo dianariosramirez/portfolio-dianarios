@@ -1,11 +1,10 @@
-import React from "react";
 import Skills from "../skills/Skills";
 import { useTranslation } from "react-i18next";
 
 
 const Resume = () => {
 
-  const [ t, i18n ] = useTranslation( "global" ); 
+  const [ t ] = useTranslation( "global" ); 
 
   const resumeContent = [
     {
@@ -26,10 +25,10 @@ const Resume = () => {
       jobDuration: t( "resume.jobs.job2.jobDuration" ),
       timeDuraton: t( "resume.jobs.job2.timeDuration" ),
       compnayName: t( "resume.jobs.job2.compnayName" ),
-      jobDescription1: t( "resume.jobs.job1.description1" ),
-      jobDescription2: t( "resume.jobs.job1.description2" ),
-      jobDescription3: t( "resume.jobs.job1.description3" ),
-      jobDescription4: t( "resume.jobs.job1.description4" ),
+      jobDescription1: t( "resume.jobs.job2.description1" ),
+      jobDescription2: t( "resume.jobs.job2.description2" ),
+      jobDescription3: t( "resume.jobs.job2.description3" ),
+      jobDescription4: t( "resume.jobs.job2.description4" ),
       delayAnimation: "",
     },
   ];

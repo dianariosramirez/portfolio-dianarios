@@ -1,22 +1,20 @@
-import React from "react";
-
 const AwardContnet = [
   {
-    img: "a1",
-    awardName: "Creative Designer",
-    awardFor: "Site of the day",
+    img: "",
+    awardName: "",
+    awardFor: "",
     delayAnimation: "0",
   },
   {
-    img: "a2",
-    awardName: "Yearly Best Performer",
-    awardFor: "Site of the day",
+    img: "",
+    awardName: "",
+    awardFor: "",
     delayAnimation: "200",
   },
   {
-    img: "a3",
-    awardName: "Best Learner Award",
-    awardFor: "Site of the day",
+    img: "",
+    awardName: "",
+    awardFor: "",
     delayAnimation: "400",
   },
 ];

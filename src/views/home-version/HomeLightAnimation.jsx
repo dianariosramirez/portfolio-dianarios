@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import {useState} from "react";
 import { useTranslation } from "react-i18next";
 
 // Components
@@ -10,7 +10,6 @@ import Portfolio from "../../components/portfolio/PortfolioAnimation";
 import Blog from "../../components/blog/BlogAnimation";
 import Contact from "../../components/contact/Contact";
 import ContactInfo from "../../components/contact/ContactInfo";
-import Map from "../../components/contact/Map";
 import Footer from "../../components/footer/FooterAnimation";
 
 const HomeOne = () => {

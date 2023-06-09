@@ -1,14 +1,12 @@
-import React from "react";
-
 // Components
 import Social from "../Social";
-import Testimonials from "../testimonial/TestimonialAnimation";
+// import Testimonials from "../testimonial/TestimonialAnimation";
 import Services from "../service/ServiceAnimation";
-import Awards from "../award/AwardsAnimation";
+// import Awards from "../award/AwardsAnimation";
 import { useTranslation } from "react-i18next";
 
 const About = () => {
-  const[ t, i18n ] = useTranslation( "global" );
+  const[ t ] = useTranslation( "global" );
 
   return (
     <>
