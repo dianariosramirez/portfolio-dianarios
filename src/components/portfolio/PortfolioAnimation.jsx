@@ -1,4 +1,3 @@
-import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import "photoswipe/dist/photoswipe.css";
@@ -25,7 +24,7 @@ const tabListContent = [
         alterText: "Online Shop",
         delayAnimation: "",
         portfolioLink:
-          "https://dianariosramirez.github.io/ceniza-shop/",
+          "https://ceniza-mx-store.web.app/",
       },
       {
         img: "img/portfolio/project-2.jpg",
