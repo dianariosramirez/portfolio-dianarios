@@ -1,7 +1,7 @@
 {
     "homeOne": {
         "titlePortfolio": "My Portfolio",
-        "titleBlog": "Latest Blog",
+        "titleBlog": "Blog of interest",
         "contactForm": "Say Something"
     },
     "header": {
@@ -43,6 +43,17 @@
         "jobs": {
             "job1": {
                 "position": "Front-end developer",
+                "type": "Professional stay",
+                "jobDuration": "Jul 2023 - Present",
+                "timeDuration": "Full-time",
+                "compnayName": "KadaSoftware",
+                "description1": "Development valuable products on the front-end, creating components, screens, and navigation flows for an optimal user experience.",
+                "description2": "Usage of React JS and TypeScript, along with Material UI and Formik, to build attractive and functional interfaces.",
+                "description3": "Development of unit tests for components.",
+                "description4": "Collaboration with the design team for low and medium-fidelity prototypes, ensuring cohesive and visually appealing user interfaces. "
+            },
+            "job2": {
+                "position": "Front-end developer",
                 "type": "Project | Remote",
                 "jobDuration": "Feb 2023 - Present",
                 "timeDuration": "Full-time",
@@ -51,17 +62,6 @@
                 "description2": "Project planning and design.",
                 "description3": "Application of development tools such as React, React Router V6, Material UI and Zustand.",
                 "description4": "Implementation of creative solutions to solve technical problems."
-            },
-            "job2": {
-                "position": "Front-end developer",
-                "type": "Project | Remote",
-                "jobDuration": "nov 2022 - ene 2023",
-                "timeDuration": "Part-time",
-                "compnayName": "Project",
-                "description1": "Development of a web application for facial recognition in images.",
-                "description2": "Application of various Front-end tools including HTML, CSS, JavaScript and React.",
-                "description3": "Skill training in web programming, user interface design, user experience, among others.",
-                "description4": "Integration of applications with API's (Clarifai API)."
             }
         },
         "education": {

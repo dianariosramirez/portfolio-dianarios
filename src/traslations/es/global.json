@@ -1,7 +1,7 @@
 {
     "homeOne": {
         "titlePortfolio": "Mi portafolio",
-        "titleBlog": "Blog",
+        "titleBlog": "Blog de interés",
         "contactForm": "¡Hola! ¿Quieres decir algo?"
     },
     "header": {
@@ -42,8 +42,19 @@
         "experience": "Experiencia",
         "jobs": {
             "job1": {
+                "position": "Desarrolladora front end",
+                "type": "Estadía profesional | Presencial",
+                "jobDuration": "jul 2023 - actualidad",
+                "timeDuration": "Tiempo completo",
+                "compnayName": "KadaSoftware",
+                "description1": "Desarrollo de productos de valor en frontend, creando componentes, pantallas y flujos de navegación para una experiencia de usuario óptima.",
+                "description2": "Uso de React JS y TypeScript, junto con Material UI y Formik, para construir interfaces atractivas y funcionales.",
+                "description3": "Consumo de API's para obtener y gestionar datos.",
+                "description4": "Desarrollo de pruebas unitarias."
+            },
+            "job2": {
                 "position": "Desarrollador web",
-                "type": "Proyecto | Remoto",
+                "type": "Freelance",
                 "jobDuration": "feb 2023 - actualidad",
                 "timeDuration": "Tiempo completo",
                 "compnayName": "Ceniza Mx",
@@ -51,17 +62,6 @@
                 "description2": "Planificación y diseño del proyecto.",
                 "description3": "Aplicación de herramientas de desarrollo como React, React Router V6, Material UI y Zustand.",
                 "description4": "Implementación de soluciones creativas para resolver problemas técnicos."
-            },
-            "job2": {
-                "position": "Desarrollador front-end",
-                "type": "Proyecto | Remoto",
-                "jobDuration": "dic 2022 - ene 2023",
-                "timeDuration": "Medio tiempo",
-                "compnayName": "Proyecto",
-                "description1": "Desarrollo de aplicación web de reconocimiento facial en fotografías.",
-                "description2": "Aplicación de diversas herramientas Front-end incluyendo HTML, CSS, JavaScript y React.",
-                "description3": "Entrenamiento de habilidades en la programación web, diseño de interfaz de usuario, experiencia de usuario, entre otras.",
-                "description4": "Integración de aplicaciones con API's (Clarifai API)."
             }
         },
         "education": {
